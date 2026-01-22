@@ -22,9 +22,23 @@ const insertData = async () => {
             age: 23,
             course: "ECE",
             mark: 80
+        },
+        {
+            name: "Santhose",
+            age: 23,
+            course: "ECE",
+            mark: 40
+        },
+        {
+            name: "Agash",
+            age: 20,
+            course: "CSE",
+            mark: 60
         }
     ])
     console.log("Sample data inserted")
+
+
 };
 
 insertData();
