@@ -5,11 +5,11 @@ const student = require("./model/schema")
 
 const add = async()=>{
     const Student= new student({
-        id:77,
-        name:"Rashid",
+        id:26,
+        name:"Hussain",
         age:21,
-        marks:70,
-        course:"cs"
+        marks:50,
+        course:"Social Science"
     });
 
     await Student.save()
